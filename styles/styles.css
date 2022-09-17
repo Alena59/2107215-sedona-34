@@ -421,7 +421,8 @@ body {
 .intro {
   padding: 51px 45px 82px;
   background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
-  background-size: 1200px 57px, 1200px 485px;
+  /* background-size: 1200px 57px, 1200px 485px; */
+  background-size: contain;
   background-repeat: no-repeat, no-repeat;
   background-position: 50% 100%, center;
 }
